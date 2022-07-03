@@ -1,0 +1,29 @@
+.santos   {
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 50px;
+}
+.badge {
+    cursor: pointer;
+    border-radius: 50px;
+    border: 3px solid black;
+    color:black ;
+}
+.santos :hover{
+    background-color: greenyellow;   
+}
+.card-body,
+.card-body1{
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+.card-body,.card-body1:hover{
+   transform: translate(-1px, 30px); 
+}
+.card-body1:hover{
+    background-color:#0B3708 ;
+}
+a{
+    text-decoration: none;
+}
